@@ -1,0 +1,14 @@
+{
+    "name": "n.pashkevich/cli_output",
+    "description": "Client for cli output",
+    "type": "library",
+    "require": {
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Kdteam\\CliOutput\\": "src"
+        }
+    }
+}
