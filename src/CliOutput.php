@@ -50,9 +50,9 @@ class CliOutput
     }
 
     // Returns colored string
-    public function toConsole($string, $status, $foreground_color = null, $background_color = null)
+    public  function toConsole($string, $status, $foreground_color = null, $background_color = null)
     {
-        echo $this->toLog($string, $status, $foreground_color, $background_color);
+        echo $this->toLog($string, $status, $foreground_color, $background_color) . PHP_EOL;
     }
 
     // Returns colored string
