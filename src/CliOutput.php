@@ -56,7 +56,7 @@ class CliOutput
     }
 
     // Returns colored string
-    public function toLog($string, $status, $foreground_color = null, $background_color = null)
+    public function toLog($string, $status = STATUS_CONSOLE_INFO, $foreground_color = null, $background_color = null)
     {
         $colored_string = "";
 
